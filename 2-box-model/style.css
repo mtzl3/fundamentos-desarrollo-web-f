@@ -27,28 +27,30 @@ body{
     margin: 15px 0;
 }
 .card > img{
-    margin-bottom: 25px;
     width: 100%;
     border-radius: 15px;
+    margin-bottom: 25px;
 
 }
-.card > p{
-    color: gray;
+.card >p{
+    color: hs1(0,0%,42%);
     margin-top: 10px;
     line-height: 23px;
 }
 
-.user-info-box{
+.user {
    margin-top: 20px;
 
 }
-.user-info-box img{
+.user img{
+    width: 30PX;
     display: inline-block;
     vertical-align: middle;
     margin-right: 8px;
 }
-.user-info-box p{
+.user p{
     display: inline-block;
     vertical-align: middle;
     font-weight: bold;
+    margin-right: 8px;
 }
