@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+  color:blue;
+  text-shadow:1px 1px 1px black;
+}
+
+.diferente{
+    text-shadow: none;
+    color: brown;
+ }
+ h1 span{
+    background-color: orange;
+ }
+
+a{
+    color:rgb(121, 171, 215);
+    background-color: rgb(27, 27, 55);
+    text-shadow:none;
+}
+/*  Especificidad */
+h1{
+    color: greenyellow;
+}
+.blue{
+   color:blue;
+}
+#red{
+    color:red;
+}
