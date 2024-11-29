@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+}
+header{
+    
+    /*background-color: antiquewhite;*/
+    padding: 20px 0;
+
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+}
+section{
+   /* background-color: rgb(128, 201, 201);*/
+    margin-top: 60px;
+}
+.container-content{
+    display: flex;
+    gap:20px;
+    max-width: 1100px;
+   /* border-color: blueviolet;*/
+    margin: auto;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    height: 200px;
+    /*background-color: orange;*/
+    flex:1;
+}
+.card-box-50{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    width: 46%;
+}  
+.card-box-100{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color:  rgb(105, 189, 105);
+     width: 100%;
+}
+.middle{
+    background-color: rgb(105, 155, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{background-color: rgb(192, 255, 199);}
+.lemon-green{background-color: rgb(0, 255, 55);}
+.tomato{background-color: rgb(255, 65, 65);}

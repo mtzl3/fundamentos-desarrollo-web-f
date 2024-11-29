@@ -9,8 +9,14 @@
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 500px;
+    justify-content: start;
+    /*align-items: stretch;
+    align-content: stretch;*/
+    flex-wrap: wrap;
+    gap:30px;
+
+
+    width: 600px;
     height: 600px;
     background-color: blueviolet;
     border: 3px solid black;
@@ -19,11 +25,18 @@
 
 }
 .ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     background-color: orange;
-    border-radius: 50%;
+    border-radius: 10px;
     border: 3px solid black;
     color:white;
-
+    
+}
+.tres{
+    background-color: black;
+    align-self: center;
 }
