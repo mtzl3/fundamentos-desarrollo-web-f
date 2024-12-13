@@ -1,3 +1,4 @@
+/*estilos de escritorio*/
 *{
     margin:0;
     padding: 0;
@@ -171,4 +172,47 @@ header{
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
+}
+/*primer breakpoint*/
+  /*Availible brakpoints - Medidas estandar::after Large: 992*/
+@media screen and (max-width: 992px){
+     body{
+       /* background-color: tomato;*/
+     }
+     .welcome-content{
+        flex-direction: column-reverse;
+     }
+     .col-2{
+        background-color: rgb(73,19,123) !important;
+        flex: none;
+        height: 300px;
+
+     }
+     .img-pizza, .img-hoja, .img-tomato{
+        width: 230px;
+     }
+     .productos-content{
+        flex-wrap: wrap;
+     }
+     .product-card{
+        flex: none;
+        width: 49%;
+
+     }
+}
+@media screen and (max-width: 576px){
+    body{
+       /* background-color: blueviolet;*/
+    }
+     
+}
+@media screen and (max-width: 576px){
+    body{
+        /*background-color: blueviolet;*/
+    }
+    .product-card{
+        flex: none;
+        width: 100%;
+    }
+
 }
