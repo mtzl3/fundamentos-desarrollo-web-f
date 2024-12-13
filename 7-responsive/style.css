@@ -1,0 +1,41 @@
+/*estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*estilos desktop*/
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color:blueviolet;
+    color: white;
+}
+.contenedor h1{
+    font-size: 3rem!important;
+}
+/*primer breakpoint*/
+@media screen and (max-width: 900px){
+    .contenedor{
+        background-color: tomato;
+    }  
+    .contenedor h1{
+        font-size: 5rem!important;
+        text-decoration: line-through;
+        background-color: yellow;
+        color: #232323;
+        
+    }
+}
+
+/*segundo break´point*/
+@media screen and (max-width: 480px){
+    .contenedor{
+        background-color: darkcyan;
+    }
+}
